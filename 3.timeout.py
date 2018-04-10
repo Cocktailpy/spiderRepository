@@ -9,3 +9,7 @@ def timeout_setting():
         print(len(data))
     except Exception as e:
         print("出现异常--》" + str(e))
+
+
+if __name__ == '__main__':
+    timeout_setting()
